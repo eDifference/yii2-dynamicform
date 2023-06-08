@@ -1,11 +1,6 @@
 <?php
-/**
- * @link      https://github.com/wbraganca/yii2-dynamicform
- * @copyright Copyright (c) 2014 Wanderson Bragança
- * @license   https://github.com/wbraganca/yii2-dynamicform/blob/master/LICENSE
- */
 
-namespace wbraganca\dynamicform;
+namespace edifference\dynamicform;
 
 use Yii;
 use yii\helpers\Html;
@@ -16,7 +11,6 @@ use Symfony\Component\DomCrawler\Crawler;
 /**
  * yii2-dynamicform is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.
  *
- * @author Wanderson Bragança <wanderson.wbc@gmail.com>
  */
 class DynamicFormWidget extends \yii\base\Widget
 {
